@@ -1,11 +1,21 @@
 pipeline {
-	agent {
-		docker { image 'jenkins-slave' }
-	stages {
-		stage ('Build') {
-			steps {
-				sh echo "XXXXXXXXXXXXXXXXXXXX"
-			}
-		}
-	}
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
 }
