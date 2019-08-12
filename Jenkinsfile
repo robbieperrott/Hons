@@ -1,5 +1,5 @@
 pipeline {
-    agent docker-slave-fff0ddf0113d
+    agent {docker-slave-fff0ddf0113d}
 
     stages {
         stage('Build') {
