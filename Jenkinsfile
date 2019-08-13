@@ -5,7 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-		sh label: '', script: 'singularity build hello-world.simg shub://vsoch/hello-world'
             }
         }
         stage('Test') {
