@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                singularity build test.simg Singularity.recipe
+                sh singularity build test.simg Singularity.recipe
             }
         }
         stage('Test') {
