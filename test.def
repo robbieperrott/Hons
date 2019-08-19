@@ -1,8 +1,0 @@
-From: ubuntu
-
-%help
-Help me. I'm in the container.
-
-%post
-  echo "Hello World"
-  
