@@ -1,5 +1,13 @@
 pipeline {
     agent any
+    
+    environment {
+        SREGISTRY_CLIENT='registry'
+        SREGISTRY_REGISTRY_BASE='http://nginx'
+        SREGISTRY_REGISTRY_USERNAME='pianopwner'
+        SREGISTRY_REGISTRY_TOKEN='0f92c8ab81ffa2929a3837b13578dffe49f81d47'
+           
+    }
 
     stages {
         stage('Build') {
