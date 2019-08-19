@@ -16,6 +16,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                sh 'export SREGISTRY_CLIENT=registry'
                 sh 'sregistry push test.simg --name=test/jenkinstest'
             }
         }
