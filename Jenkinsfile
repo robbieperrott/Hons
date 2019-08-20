@@ -4,8 +4,8 @@ pipeline {
     environment {
         SREGISTRY_CLIENT='registry'
         SREGISTRY_REGISTRY_BASE='http://nginx'
-        SREGISTRY_REGISTRY_USERNAME='pianopwner'
-        SREGISTRY_REGISTRY_TOKEN='0f92c8ab81ffa2929a3837b13578dffe49f81d47'
+        SREGISTRY_REGISTRY_USERNAME='robbieperrott'
+        SREGISTRY_REGISTRY_TOKEN='4f7c7746494e340cdb31abef2a398276c6b1a771'
            
     }
 
