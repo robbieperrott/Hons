@@ -25,7 +25,7 @@ pipeline {
             steps {
                 echo 'Deploying....'
                 sh 'export SREGISTRY_CLIENT=registry'
-                sh 'sregistry push test.simg --name=test/jenkinstest'
+                sh 'sregistry push test.simg --name=user-test/test_for_rob'
             }
         }
     }
