@@ -5,7 +5,7 @@ Pipeline(
   image: 'test.simg',
   recipe: 'Singularity.recipe',
   collection: 'test2',
-  container: 'test-shared-library')
+  container: 'test-!!!')
   
   
   
