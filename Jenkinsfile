@@ -5,7 +5,8 @@ Pipeline(
   image: 'test.simg',
   recipe: 'Singularity.recipe',
   collection: 'test2',
-  container: 'test-container')
+  container: 'test-container',
+  tag: 't')
   
   
   
