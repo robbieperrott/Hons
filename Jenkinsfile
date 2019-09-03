@@ -6,7 +6,8 @@ Pipeline(
   recipe: 'Singularity.recipe',
   collection: 'test2',
   container: 'test-container',
-  tag: 't')
+  // Use empty string for no tag.
+  tag: '')
   
   
   
