@@ -7,6 +7,6 @@ Pipeline(
   collection: 'demo',
   container: 'test-container',
   // Use empty string for no tag.
-  tag: ''
+  tag: '',
   targetVM: '154.114.37.247')
   
