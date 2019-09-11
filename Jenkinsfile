@@ -1,3 +1,4 @@
+@Library('Jenkins')
 Pipeline(
   client: 'registry',
   username: 'robbieperrott',
