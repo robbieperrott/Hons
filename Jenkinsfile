@@ -8,5 +8,6 @@ Pipeline(
   container: 'test-container2',
   // Use empty string for no tag.
   tag: '',
-  targetVM: '154.114.37.247')
+  vm_user: 'ubuntu',
+  vm_ip: '154.114.37.247')
   
