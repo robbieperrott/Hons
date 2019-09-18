@@ -4,7 +4,7 @@ Pipeline(
   token: '6ee372aca5f338acc72c5eb85e3573f994aa1150',
   image: 'test.simg',
   recipe: 'Singularity.recipe',
-  collection: 'demo',
+  collection: 'demo2',
   container: 'test-container2',
   // Use empty string for no tag.
   tag: '',
