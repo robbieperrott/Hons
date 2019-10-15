@@ -4,4 +4,4 @@ This repository contains:
     3. Our final research paper.
     4. A poster summarizing the contents of our paper.
     
-    .
+    ..
