@@ -5,7 +5,7 @@ Pipeline(
   image: 'test.simg',
   recipe: 'Singularity.recipe',
   collection: 'demo2',
-  container: 'test-container',
+  container: 'school-of-it-demo',
   // Use empty string for no tag.
   tag: '',
   vm_user: 'ubuntu',
